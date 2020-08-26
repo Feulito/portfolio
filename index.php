@@ -106,7 +106,7 @@
                     </p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 projet">
-                    <h2><a href="projects/CVSebastienDuterte.pdf" target="_blank">CV</a></h2>
+                    <h2><a href="documents/CVSebastienDuterte.pdf" target="_blank">CV</a></h2>
                     <p>
                         Voici mon Curruculum Vitae que vous pouvez ouvrir en format PDF et éventuellement télécharger.
                         Je recherche activement une alternance durant pour Master Ingénierie Logicielle pour l'Internet afin
@@ -116,7 +116,7 @@
                     </p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 projet">
-                    <h2><a href="" target="_blank">Git</a></h2>
+                    <h2><a href="https://github.com/Feulito?tab=repositories" target="_blank">Git</a></h2>
                     <p>
                         Vous trouverez le code de tous mes projets sur ce Github. Vous pourrez également
                         télécharger les projets, et les tester, directement en cliquant sur leur nom ou
@@ -149,7 +149,7 @@
                             </p>
                         </div>
                         <div class="row justify-content-center">
-                            <a href="projects/A_Declarer.rar" class="download" download>Télécharger A Déclarer</a>
+                            <a href="https://github.com/Feulito/A_Declarer/releases/download/1.0/ADeclarer.rar" class="download" download>Télécharger A Déclarer</a>
                         </div>
                     </div>
                 </div>
@@ -177,7 +177,7 @@
                             <a href="img/lehub.png" class="col-lg-6"><img src="img/lehub.png" alt="Image de présentation du site web Le Hub" class="col-lg-12" /></a>
                         </div>
                         <div class="row justify-content-center">
-                            <a href="projects/LeHub.rar" class="download" download>Télécharger Le Hub</a>
+                            <a href="https://github.com/Feulito/LeHub" class="download" download>Voir Le Hub sur GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -216,7 +216,7 @@
                             </p>
                         </div>
                         <div class="row justify-content-center">
-                            <a href="projects/Labyrinthe.rar" class="download" download="">Télécharger Le Labyrinthe</a>
+                            <a href="https://github.com/Feulito/Labyrinthe/releases/download/1.0/Labyrinthe.rar" class="download" download="">Télécharger Le Labyrinthe</a>
                         </div>
                     </div>
                 </div>
@@ -250,7 +250,7 @@
                             <a href="img/siam.png" class="col-lg-6"><img src="img/siam.png" alt="Image de présentation du jeu du projet web" class="col-lg-12" /></a>
                         </div>
                         <div class="row justify-content-center">
-                            <a href="projects/Siam.zip" class="download" download>Télécharger Siam</a>
+                            <a href="https://github.com/Feulito/Siam" class="download" download>Voir Siam sur GitHub</a>
                         </div>
                     </div>
                 </div>

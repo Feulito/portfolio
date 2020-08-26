@@ -1,4 +1,11 @@
-const links = ["#adeclarer", "#lehub", "#laby", "#proweb", "#junglewar"];
+const links = ["#adeclarer",
+                "#lehub",
+                "#laby",
+                "#proweb",
+                "#junglewar",
+                "",
+                "documents/CVSebastienDuterte.pdf",
+                "https://github.com/Feulito?tab=repositories"];
 
 function initProjects() {
     var projets = document.getElementsByClassName('projet');
