@@ -14,10 +14,9 @@ function initProjects() {
     for (var i = 0; i < projets.length; i += 1) {
         if (i < links.length) {
             projets[i].setAttribute('style', "height: "+ w + "px; cursor: pointer;");
-            projets[i].setAttribute('onclick', 'location.href = "' + links[i] + '"');
             if (i == 6 || i == 7) {
-                projets[i].setAttribute('onclick', 'location.target = "_blank"');
-            }
+                projets[i].setAttribute('onclick', 'window.open("' + links[i] + '")');
+            } else projets[i].setAttribute('onclick', 'location.href = "' + links[i] + '"');
         } else {
             projets[i].setAttribute('style', "height: "+ w + "px;");
         }
