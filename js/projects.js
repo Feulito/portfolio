@@ -15,6 +15,9 @@ function initProjects() {
         if (i < links.length) {
             projets[i].setAttribute('style', "height: "+ w + "px; cursor: pointer;");
             projets[i].setAttribute('onclick', 'location.href = "' + links[i] + '"');
+            if (i == 6 || i == 7) {
+                projets[i].setAttribute('onclick', 'location.target = "_blank"');
+            }
         } else {
             projets[i].setAttribute('style', "height: "+ w + "px;");
         }
