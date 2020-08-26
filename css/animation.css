@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: black;
+    color: white;
+    animation: 3s linear 3s 1 body_animation;
+    animation-fill-mode: forwards;
+}
+
+@keyframes body_animation {
+    from {
+        background-color: black;
+        color: black;
+    }
+    to {
+        background-color: rgb(20,20,20);
+        color: black;
+    }
+}
+
+body::before {
+    content: "Portfolio de Sébastien Duterte";
+    color: blanchedalmond;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    animation: 3s linear 2s 1 b_before;
+    animation-fill-mode: forwards;
+}
+
+@keyframes b_before {
+    from {
+        opacity: 100%;
+        display: block;
+    }
+    to {
+        opacity: 0%;
+        display: none;
+    }
+}
+
+.container, .container-fluid, nav, footer {
+    opacity: 0%;
+    animation: 3s linear 3s 1 container_opacity;
+    animation-fill-mode: forwards;
+}
+
+@keyframes container_opacity {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+/* -- Animation pour les descriptions des projets -- */
+
+.projet h2 + p {
+    opacity: 00%;
+}
+
+.projet:hover h2 + p {
+    animation: 0.5s linear 0s 1 appear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0%;
+
+    }
+    100% {
+        opacity: 100%;
+        transform: rotate(720deg)
+    }
+}
